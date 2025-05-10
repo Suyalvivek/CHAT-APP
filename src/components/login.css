@@ -1,0 +1,99 @@
+.login {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #232526 0%, #414345 100%);
+  }
+  
+  .login-card {
+    background: rgba(30, 32, 40, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
+    padding: 2.5rem 2rem 2rem 2rem;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgba(255,255,255,0.08);
+    transition: box-shadow 0.2s, background 0.2s, border-color 0.2s;
+    margin: 1rem;
+  }
+  
+  .login-card:hover {
+    background: rgba(30, 32, 40, 0.9);
+    box-shadow: 0 12px 40px 0 rgba(0,0,0,0.35);
+    border-color: rgba(255,255,255,0.14);
+  }
+  
+  .card-name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.8rem;
+    letter-spacing: 0.04em;
+  }
+  
+  .login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.7rem;
+    border: none;
+    background: rgba(255,255,255,0.07);
+    color: #f5f5f5;
+    font-size: 1rem;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  
+  .input-box:focus {
+    background: rgba(255,255,255,0.14);
+    outline: none;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+    color: #fff;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1.1rem;
+    box-shadow: 0 2px 8px rgba(168, 85, 247, 0.10);
+    transition: background 0.2s, box-shadow 0.2s;
+  }
+  
+  .button:hover {
+    background: linear-gradient(90deg, #8b5cf6 0%, #6366f1 100%);
+    box-shadow: 0 4px 16px rgba(168, 85, 247, 0.18);
+  }
+  
+  .register {
+    color: #b7b7b7;
+    font-size: 0.97rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .register:hover {
+    color: #8b5cf6;
+  }
+  
