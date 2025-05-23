@@ -1,0 +1,45 @@
+.sidebar-chats {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.2rem;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 0.2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background 0.18s;
+  margin-bottom: 0.5rem;
+  background: transparent;
+}
+.chat-item:hover, .chat-item.selected {
+  background: rgba(255,255,255,0.04);
+}
+
+.avatar {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7f53ac 0%, #647dee 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+
+.chat-name {
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.chat-id {
+  font-size: 0.95rem;
+  color: #b0b4c0;
+}

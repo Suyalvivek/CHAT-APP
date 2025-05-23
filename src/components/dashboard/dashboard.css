@@ -1,0 +1,97 @@
+.dashboard {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+}
+
+.dashboard-card {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  border-radius: 1.5rem;
+  background: rgba(30, 32, 40, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.dashboard-sidebar {
+  width: 300px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.2rem 1.2rem 1.2rem;
+}
+
+.sidebar-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.sidebar-logout-icon {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.sidebar-logout-icon:hover {
+  color: #a084ee;
+}
+
+.sidebar-search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-search {
+  flex: 1;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  background: #23232a;
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 1.5px #23232a;
+  transition: box-shadow 0.2s;
+}
+.sidebar-search:focus {
+  box-shadow: 0 0 0 2px #a084ee;
+}
+
+.sidebar-search-btn {
+  background: #23232a;
+  border: none;
+  border-radius: 50%;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #a084ee;
+  transition: background 0.2s;
+}
+.sidebar-search-btn:hover {
+  background: #2d2d39;
+}
+
+.dashboard-main {
+  flex: 1;
+  background: transparent;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}

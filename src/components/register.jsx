@@ -3,7 +3,7 @@ import "./register.css";
 import AvatarSelector from "./avatarSelector/avatarSelector";
 const Register = ({ setLogin }) => {
   const[profileAvatar,setProfileAvatar] = useState(false);
-  const handleLogin = () => {
+  const handleLogin = ()    => {
     setLogin(true);
   };
   const handleProfileAvatar=()=>{

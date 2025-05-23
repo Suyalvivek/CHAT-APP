@@ -1,7 +1,7 @@
 import React from 'react';
 import './avatarSelector.css';
 
-const avatars = [
+const avatars = [,
   '/src/assets/avatar1.jpg',
   '/src/assets/avatar2.jpg',
   '/src/assets/avatar3.jpg',
